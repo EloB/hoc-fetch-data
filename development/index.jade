@@ -1,0 +1,9 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Page route example
+  body
+    #app
+    if app && app.js
+      script(src=app.js.replace('/dist', 'dist'))
